@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.info,
+.controls {
+  flex: 1;
+}
+
+button {
+  cursor: pointer;
+}
+
+button.like {
+  background: none;
+  border: none;
+  color: grey;
+}
+
+button.like.liked {
+  color: red;
+}
